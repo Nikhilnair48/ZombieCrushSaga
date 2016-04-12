@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    The properties in this file are specific to the zomjong flavor of the game.
+-->
+<properties>
+    <property_list>    
+        <property name="GAME_TITLE_TEXT"                        value="Zomjong Solitaire"></property>
+        <property name="WINDOW_ICON"                            value="./zcs/TileZombieGigaGargantuar.png"></property>
+        
+        <!-- BIG, FULL VIEWPORT BACKGROUND SCREEN IMAGES -->
+        <property name="SPLASH_SCREEN_IMAGE_NAME"               value="./zcs/background/UIZombieCrushSagaSplashBackground.png"></property>
+        <property name="GAME_BACKGROUND_IMAGE_NAME"             value="./zcs/background/UIZombieCrushSagaGameScreen.png"></property>
+        <property name="SAGA_BACKGROUND_IMAGE_NAME"             value="./zcs/background/UIZombieCrushSagaLevelsBackground.png"></property>
+        <property name="LEVE_SCORE_BACKGROUND_IMAGE_NAME"       value="./zcs/background/UIZombieCrushSagaLevelScoreBackground.png"></property>
+        
+        <!-- SAGA BUTTONS -->
+        <property name="SAGA_EXIT_BUTTON"                       value="./zcs/saga_Buttons/UIExitButton.png"></property>
+        <property name="SAGA_EXIT_BUTTON_MOUSE_OVER"            value="./zcs/saga_Buttons/UIExitButtonMouseOver.png"></property>
+        <property name="SAGA_SCROLL_DOWN_BUTTON"                value="./zcs/saga_Buttons/UIscrollDownButton.png"></property>
+        <property name="SAGA_SCROLL_DOWN_BUTTON_MOUSE_OVER"     value="./zcs/saga_Buttons/UIscrollDownButtonMouseOver.png"></property>
+        <property name="SAGA_SCROLL_UP_BUTTON"                  value="./zcs/saga_Buttons/UIscrollUPButton.png"></property>
+        <property name="SAGA_SCROLL_UP_BUTTON_MOUSE_OVER"       value="./zcs/saga_Buttons/UIscrollUpButtonMouseOver.png"></property>
+        
+        <!-- LEVEL SCORE BUTTONS -->
+        <property name="LEVEL_SCORE_BACK_BUTTON"                value="./zcs/level_score/UILevelScoreBack.png"></property>
+        <property name="LEVEL_SCORE_BACK_BUTTON_MOUSE_OVER"     value="./zcs/level_score/UILevelScoreBackMouseOver.png"></property>
+        <property name="LEVEL_SCORE_START_BUTTON"               value="./zcs/level_score/UILevelScoreStartButton.png"></property>
+        <property name="LEVEL_SCORE_START_BUTTON_MOUSE_OVER"    value="./zcs/level_score/UILevelScoreStartButtonMouseOver.png"></property>
+        
+        <property name="LEVEL_SCORE_STARS"                      value="./zcs/level_score/levelScoreStar1.png"></property>
+        <property name="WIN_DIALOG"                             value="./zcs/level_score/WinDialog.png"></property>
+        <property name="LOSS_DIALOG"                            value="./zcs/level_score/LossDialog.png"></property>
+        
+        <!-- GAME SCREEN BUTTONS -->
+        <property name="GAME_SCREEN_QUIT_BUTTON"                value="./zcs/game_screen/UIZombieCrushGameQuit.png"></property>
+        <property name="GAME_SCREEN_QUIT_BUTTON_MOUSE_OVER"     value="./zcs/game_screen/UIZombieCrushGameQuitMouseOver.png"></property>
+        
+        <property name="PROGRESS_BAR"                           value="./zcs/game_screen/ProgressBar.png"></property>
+        
+        <property name="BOMB"                                   value="./zcs/game_screen/Bomb.png"></property>
+        <property name="BOMB_MOUSE_OVER"                        value="./zcs/game_screen/BombMouseOver.png"></property>
+
+    </property_list>
+    <property_options_list>
+
+        <property_options name="SPLASH_OPTIONS">
+            <option>PLAY_STATE</option>
+            <option>QUIT_STATE</option>
+            <option>RESET_STATE</option>
+        </property_options>
+        <property_options name="SPLASH_IMAGE_OPTIONS">
+            <option>./zcs/splash_Buttons/UIZombieCrushSagaPlayButton.png</option>
+            <option>./zcs/splash_Buttons/UIZombieCrushSagaQuitButton.png</option>
+            <option>./zcs/splash_Buttons/UIZombieCrushSagaResetButton.png</option>
+        </property_options>
+        <property_options name="SPLASH_MOUSE_OVER_IMAGE_OPTIONS">
+            <option>./zcs/splash_Buttons/UIZombieCrushSagaPlayMouseOver.png</option>
+            <option>./zcs/splash_Buttons/UIZombieCrushSagaQuitMouseOver.png</option>
+            <option>./zcs/splash_Buttons/UIZombieCrushSagaResetMouseOver.png</option>
+        </property_options>
+        
+    <!--
+    SAGA SCREEN - LEVEL BUTTONS. ROW ONE CONTAINS LEVELS 1-5, ROW TWO CONTAINS LEVELS 6-10.
+    -->
+        <property_options name="SAGA_LEVEL_BUTTONS_ROW_ONE">
+            <option>./zcs/saga_LevelButtons/Level1Button.png</option>
+            <option>./zcs/saga_LevelButtons/Level2Button.png</option>
+            <option>./zcs/saga_LevelButtons/Level3Button.png</option>
+            <option>./zcs/saga_LevelButtons/Level4Button.png</option>
+            <option>./zcs/saga_LevelButtons/Level5Button.png</option>
+        </property_options>
+        <property_options name="SAGA_LEVEL_BUTTONS_ROW_ONE_MOUSE_OVER">
+            <option>./zcs/saga_LevelButtons/Level1ButtonMouseOver.png</option>
+            <option>./zcs/saga_LevelButtons/Level2ButtonMouseOver.png</option>
+            <option>./zcs/saga_LevelButtons/Level3ButtonMouseOver.png</option>
+            <option>./zcs/saga_LevelButtons/Level4ButtonMouseOver.png</option>
+            <option>./zcs/saga_LevelButtons/Level5ButtonMouseOver.png</option>
+        </property_options>
+        
+         <property_options name="SAGA_LEVEL_BUTTONS_ROW_TWO">
+            <option>./zcs/saga_LevelButtons/Level6Button.png</option>
+            <option>./zcs/saga_LevelButtons/Level7Button.png</option>
+            <option>./zcs/saga_LevelButtons/Level8Button.png</option>
+            <option>./zcs/saga_LevelButtons/Level9Button.png</option>
+            <option>./zcs/saga_LevelButtons/Level10Button.png</option>
+        </property_options>
+        <property_options name="SAGA_LEVEL_BUTTONS_ROW_TWO_MOUSE_OVER">
+            <option>./zcs/saga_LevelButtons/Level6ButtonMouseOver.png</option>
+            <option>./zcs/saga_LevelButtons/Level7ButtonMouseOver.png</option>
+            <option>./zcs/saga_LevelButtons/Level8ButtonMouseOver.png</option>
+            <option>./zcs/saga_LevelButtons/Level9ButtonMouseOver.png</option>
+            <option>./zcs/saga_LevelButtons/Level10ButtonMouseOver.png</option>
+        </property_options>
+        
+        <property_options name="SAGA_ROW_ONE_LEVEL_MAP">
+            <option>./zcs/levels/Level_1.zcs</option>
+            <option>./zcs/levels/Level_2.zcs</option>
+            <option>./zcs/levels/Level_3.zcs</option>
+            <option>./zcs/levels/Level_4.zcs</option>
+            <option>./zcs/levels/Level_5.zcs</option>
+        </property_options>
+        <property_options name="SAGA_ROW_TWO_LEVEL_MAP">
+            <option>./zcs/levels/Level_6.zcs</option>
+            <option>./zcs/levels/Level_7.zcs</option>
+            <option>./zcs/levels/Level_8.zcs</option>
+            <option>./zcs/levels/Level_9.zcs</option>
+            <option>./zcs/levels/Level_10.zcs</option>
+        </property_options>
+        
+    <!--
+    GAME SCREEN - DIFFERENT TYPES OF TILES ON GAME SCREEN.
+    -->
+        <property_options name="REGULAR_ZOMBIES">
+            <option>./zcs/game_screen/regular_zombies/BlueZombie.png</option>
+            <option>./zcs/game_screen/regular_zombies/GreenZombie.png</option>
+            <option>./zcs/game_screen/regular_zombies/OrangeZombie.png</option>
+            <option>./zcs/game_screen/regular_zombies/PurpleZombie.png</option>
+            <option>./zcs/game_screen/regular_zombies/RedZombie.png</option>
+            <option>./zcs/game_screen/regular_zombies/YellowZombie.png</option>
+        </property_options>
+        
+        <property_options name="STRIPED_ZOMBIES">
+            <option>./zcs/game_screen/striped_zombies/StripedBlue.png</option>
+            <option>./zcs/game_screen/striped_zombies/StripedGreen.png</option>
+            <option>./zcs/game_screen/striped_zombies/StripedOrange.png</option>
+            <option>./zcs/game_screen/striped_zombies/StripedPurple.png</option>
+            <option>./zcs/game_screen/striped_zombies/StripedRed.png</option>
+            <option>./zcs/game_screen/striped_zombies/StripedYellow.png</option>
+        </property_options>
+        
+        <property_options name="COLOR_BOMB">
+            <option>./zcs/game_screen/ColorBomb.png</option>
+        </property_options>
+        
+        <property_options name="WRAPPED_ZOMBIES">
+            <option>./zcs/game_screen/wrapped_zombies/wrappedBlue.png</option>
+            <option>./zcs/game_screen/wrapped_zombies/wrappedGreen.png</option>
+            <option>./zcs/game_screen/wrapped_zombies/wrappedOrange.png</option>
+            <option>./zcs/game_screen/wrapped_zombies/wrappedPurple.png</option>
+            <option>./zcs/game_screen/wrapped_zombies/wrappedRed.png</option>
+            <option>./zcs/game_screen/wrapped_zombies/wrappedYellow.png</option>
+        </property_options>
+        
+    </property_options_list>
+</properties>
